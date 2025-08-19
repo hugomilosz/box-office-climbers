@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -21,6 +22,14 @@ public class GameManager : MonoBehaviour
     private Movie nextMovie;
     private int score;
     private GameSettings.GameMode currentGameMode;
+
+    [Header("Timer Settings")]
+    public Slider timerBar;
+    public float initialTime = 10f;
+    public float timeDecreasePerPoint = 0.1f;
+    public float minimumTime = 2f;
+    
+    private Coroutine timerCoroutine;
 
     void Start()
     {
@@ -53,12 +62,17 @@ public class GameManager : MonoBehaviour
         switch (currentState)
         {
             case GameState.Walking:
+                if (timerCoroutine != null) StopCoroutine(timerCoroutine); // Stop timer while walking
+                timerBar.gameObject.SetActive(false);
                 uiManager.HideQuestionUI();
                 Transform intersection = currentStairUnit.transform.Find("IntersectionTrigger");
                 StartCoroutine(playerAnim.WalkTo(intersection.position));
                 break;
 
             case GameState.WaitingForInput:
+                if (timerCoroutine != null) StopCoroutine(timerCoroutine); // Stop any old timer
+                timerBar.gameObject.SetActive(true);
+                timerCoroutine = StartCoroutine(StartTimer());
                 playerAnim.ResetToIdle();
                 uiManager.ShowQuestionUI(currentMovie, nextMovie, score, currentGameMode);
                 break;
@@ -71,6 +85,7 @@ public class GameManager : MonoBehaviour
     private void PlayerGuess(bool guessedHigher)
     {
         if (currentState != GameState.WaitingForInput) return;
+        if (timerCoroutine != null) StopCoroutine(timerCoroutine);
         currentState = GameState.Transitioning;
         uiManager.RevealNextMovie(nextMovie, currentGameMode);
         bool wasCorrect = CheckIfGuessWasCorrect(guessedHigher);
@@ -114,5 +129,21 @@ public class GameManager : MonoBehaviour
         double currentGross = (currentGameMode == GameSettings.GameMode.Worldwide) ? currentMovie.worldwideGross : currentMovie.domesticGross;
         double nextGross = (currentGameMode == GameSettings.GameMode.Worldwide) ? nextMovie.worldwideGross : nextMovie.domesticGross;
         return (guessedHigher && nextGross > currentGross) || (!guessedHigher && nextGross < currentGross);
+    }
+
+    private IEnumerator StartTimer()
+    {
+        float timeForThisRound = Mathf.Max(minimumTime, initialTime - (score * timeDecreasePerPoint));
+        float timeRemaining = timeForThisRound;
+
+        while (timeRemaining > 0)
+        {
+            timeRemaining -= Time.deltaTime;
+            timerBar.value = timeRemaining / timeForThisRound;
+            yield return null;
+        }
+
+        // If the timer runs out, the player loses
+        StartCoroutine(HandleRoundEnd(false, false));
     }
 }

@@ -3,497 +3,1420 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_CorrespondingSourceObject:
+    fileID: 0
+  m_PrefabInstance:
+    fileID: 0
+  m_PrefabAsset:
+    fileID: 0
+  m_GameObject:
+    fileID: 0
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b6b9ca2db27f429fb816ca88b10e14a, type: 3}
+  m_Script:
+    fileID: 11500000
+    guid: 4b6b9ca2db27f429fb816ca88b10e14a
+    type: 3
   m_Name: MainMovieDB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: ''
   movies:
-  - title: Avatar
-    year: 2009
-    worldwideGross: 2923706026
-    domesticGross: 785221649
-  - title: 'Avengers: Endgame'
-    year: 2019
-    worldwideGross: 2717503922
-    domesticGross: 858373000
-  - title: 'Avatar: The Way of Water'
-    year: 2022
-    worldwideGross: 2320250281
-    domesticGross: 684075767
+  - title: Ghost
+    year: 1990
+    worldwideGross: 217632241
+    domesticGross: 217631306
+  - title: Pretty Woman
+    year: 1990
+    worldwideGross: 178469413
+    domesticGross: 178406268
+  - title: Home Alone
+    year: 1990
+    worldwideGross: 290086585
+    domesticGross: 285761243
+  - title: Teenage Mutant Ninja Turtles
+    year: 1990
+    worldwideGross: 135267509
+    domesticGross: 135265915
+  - title: The Hunt for Red October
+    year: 1990
+    worldwideGross: 122012643
+    domesticGross: 122012643
+  - title: Total Recall
+    year: 1990
+    worldwideGross: 119429878
+    domesticGross: 119394840
+  - title: Die Hard 2
+    year: 1990
+    worldwideGross: 117545298
+    domesticGross: 117540947
+  - title: Driving Miss Daisy
+    year: 1990
+    worldwideGross: 106593296
+    domesticGross: 106593296
+  - title: Dick Tracy
+    year: 1990
+    worldwideGross: 103738726
+    domesticGross: 103738726
+  - title: Back to the Future Part III
+    year: 1990
+    worldwideGross: 87727583
+    domesticGross: 87727583
+  - title: 'Terminator 2: Judgment Day'
+    year: 1991
+    worldwideGross: 205068630
+    domesticGross: 204843345
+  - title: 'Robin Hood: Prince of Thieves'
+    year: 1991
+    worldwideGross: 165493908
+    domesticGross: 165493908
+  - title: Home Alone
+    year: 1991
+    worldwideGross: 290086585
+    domesticGross: 285761243
+  - title: The Silence of the Lambs
+    year: 1991
+    worldwideGross: 130875105
+    domesticGross: 130742922
+  - title: City Slickers
+    year: 1991
+    worldwideGross: 124033791
+    domesticGross: 124033791
+  - title: Dances with Wolves
+    year: 1991
+    worldwideGross: 184208848
+    domesticGross: 184208848
+  - title: Sleeping with the Enemy
+    year: 1991
+    worldwideGross: 101599005
+    domesticGross: 101599005
+  - title: The Addams Family
+    year: 1991
+    worldwideGross: 113503889
+    domesticGross: 113502426
+  - title: "The Naked Gun 2\xBD: The Smell of Fear"
+    year: 1991
+    worldwideGross: 86930411
+    domesticGross: 86930411
+  - title: 'Teenage Mutant Ninja Turtles II: The Secret of the Ooze'
+    year: 1991
+    worldwideGross: 78656813
+    domesticGross: 78656813
+  - title: Batman Returns
+    year: 1992
+    worldwideGross: 266831698
+    domesticGross: 162831698
+  - title: Lethal Weapon 3
+    year: 1992
+    worldwideGross: 144731527
+    domesticGross: 144731527
+  - title: Sister Act
+    year: 1992
+    worldwideGross: 139607519
+    domesticGross: 139605150
+  - title: 'Home Alone 2: Lost in New York'
+    year: 1992
+    worldwideGross: 173596516
+    domesticGross: 173585516
+  - title: Wayne's World
+    year: 1992
+    worldwideGross: 121704380
+    domesticGross: 121697323
+  - title: Basic Instinct
+    year: 1992
+    worldwideGross: 117728463
+    domesticGross: 117727224
+  - title: A League of Their Own
+    year: 1992
+    worldwideGross: 107535423
+    domesticGross: 107533928
+  - title: Aladdin
+    year: 1992
+    worldwideGross: 346492782
+    domesticGross: 217350219
+  - title: The Hand That Rocks the Cradle
+    year: 1992
+    worldwideGross: 88036718
+    domesticGross: 88036683
+  - title: Under Siege
+    year: 1992
+    worldwideGross: 83563139
+    domesticGross: 83563139
+  - title: Jurassic Park
+    year: 1993
+    worldwideGross: 978167947
+    domesticGross: 357067947
+  - title: The Fugitive
+    year: 1993
+    worldwideGross: 183875799
+    domesticGross: 183875760
+  - title: The Firm
+    year: 1993
+    worldwideGross: 158348367
+    domesticGross: 158348367
+  - title: Sleepless in Seattle
+    year: 1993
+    worldwideGross: 126760065
+    domesticGross: 126680884
+  - title: Mrs. Doubtfire
+    year: 1993
+    worldwideGross: 219196147
+    domesticGross: 219195243
+  - title: Indecent Proposal
+    year: 1993
+    worldwideGross: 106614059
+    domesticGross: 106614059
+  - title: In the Line of Fire
+    year: 1993
+    worldwideGross: 102314823
+    domesticGross: 102314823
+  - title: Aladdin
+    year: 1993
+    worldwideGross: 346492782
+    domesticGross: 217350219
+  - title: Cliffhanger
+    year: 1993
+    worldwideGross: 84093147
+    domesticGross: 84049211
+  - title: A Few Good Men
+    year: 1993
+    worldwideGross: 141354048
+    domesticGross: 141340178
+  - title: The Lion King
+    year: 1994
+    worldwideGross: 771055561
+    domesticGross: 312855561
+  - title: Forrest Gump
+    year: 1994
+    worldwideGross: 329833871
+    domesticGross: 329694499
+  - title: True Lies
+    year: 1994
+    worldwideGross: 146283741
+    domesticGross: 146282411
+  - title: The Santa Clause
+    year: 1994
+    worldwideGross: 144833964
+    domesticGross: 144833357
+  - title: The Flintstones
+    year: 1994
+    worldwideGross: 130531208
+    domesticGross: 130531208
+  - title: Clear and Present Danger
+    year: 1994
+    worldwideGross: 122187717
+    domesticGross: 122187717
+  - title: Speed
+    year: 1994
+    worldwideGross: 121251020
+    domesticGross: 121248145
+  - title: The Mask
+    year: 1994
+    worldwideGross: 119954466
+    domesticGross: 119938730
+  - title: Mrs. Doubtfire
+    year: 1994
+    worldwideGross: 219196147
+    domesticGross: 219195243
+  - title: Interview with the Vampire
+    year: 1994
+    worldwideGross: 105301104
+    domesticGross: 105264608
+  - title: Batman Forever
+    year: 1995
+    worldwideGross: 184033483
+    domesticGross: 184031112
+  - title: Apollo 13
+    year: 1995
+    worldwideGross: 223837411
+    domesticGross: 172071312
+  - title: Toy Story
+    year: 1995
+    worldwideGross: 244662497
+    domesticGross: 191796233
+  - title: Pocahontas
+    year: 1995
+    worldwideGross: 141579773
+    domesticGross: 141579773
+  - title: 'Ace Ventura: When Nature Calls'
+    year: 1995
+    worldwideGross: 108385533
+    domesticGross: 108385533
+  - title: Casper
+    year: 1995
+    worldwideGross: 100544179
+    domesticGross: 100544179
+  - title: Die Hard with a Vengeance
+    year: 1995
+    worldwideGross: 100012499
+    domesticGross: 100012499
+  - title: Crimson Tide
+    year: 1995
+    worldwideGross: 91387195
+    domesticGross: 91387195
+  - title: GoldenEye
+    year: 1995
+    worldwideGross: 106430619
+    domesticGross: 106429941
+  - title: Waterworld
+    year: 1995
+    worldwideGross: 88246905
+    domesticGross: 88246220
+  - title: Independence Day
+    year: 1996
+    worldwideGross: 306173666
+    domesticGross: 306169268
+  - title: Twister
+    year: 1996
+    worldwideGross: 241721524
+    domesticGross: 241721524
+  - title: 'Mission: Impossible'
+    year: 1996
+    worldwideGross: 180981856
+    domesticGross: 180981856
+  - title: The Rock
+    year: 1996
+    worldwideGross: 134069511
+    domesticGross: 134069511
+  - title: The Nutty Professor
+    year: 1996
+    worldwideGross: 128814019
+    domesticGross: 128814019
+  - title: Ransom
+    year: 1996
+    worldwideGross: 136492681
+    domesticGross: 136492681
+  - title: The Birdcage
+    year: 1996
+    worldwideGross: 124061638
+    domesticGross: 124060553
+  - title: A Time to Kill
+    year: 1996
+    worldwideGross: 108766007
+    domesticGross: 108766007
+  - title: 101 Dalmatians
+    year: 1996
+    worldwideGross: 136189294
+    domesticGross: 136189294
+  - title: The First Wives Club
+    year: 1996
+    worldwideGross: 105489203
+    domesticGross: 105489203
+  - title: Men in Black
+    year: 1997
+    worldwideGross: 250690539
+    domesticGross: 250690539
+  - title: 'The Lost World: Jurassic Park'
+    year: 1997
+    worldwideGross: 229086679
+    domesticGross: 229086679
+  - title: Liar Liar
+    year: 1997
+    worldwideGross: 181410615
+    domesticGross: 181410615
+  - title: Air Force One
+    year: 1997
+    worldwideGross: 172956409
+    domesticGross: 172956409
+  - title: 'Star Wars: Episode IV - A New Hope'
+    year: 1997
+    worldwideGross: 160703600
+    domesticGross: 138257865
+  - title: My Best Friend's Wedding
+    year: 1997
+    worldwideGross: 127131755
+    domesticGross: 127120029
   - title: Titanic
     year: 1997
-    worldwideGross: 2223048786
-    domesticGross: 674460013
-  - title: 'Star Wars Ep. VII: The Force Awakens'
-    year: 2015
-    worldwideGross: 2056046835
-    domesticGross: 936662225
-  - title: 'Avengers: Infinity War'
-    year: 2018
-    worldwideGross: 2048359754
-    domesticGross: 678815482
-  - title: 'Spider-Man: No Way Home'
-    year: 2021
-    worldwideGross: 1921206586
-    domesticGross: 814811535
-  - title: Inside Out 2
-    year: 2024
-    worldwideGross: 1698831782
-    domesticGross: 652980194
-  - title: Jurassic World
-    year: 2015
-    worldwideGross: 1669927641
-    domesticGross: 652270625
-  - title: The Lion King
-    year: 2019
-    worldwideGross: 1661454403
-    domesticGross: 543638043
-  - title: The Avengers
-    year: 2012
-    worldwideGross: 1515100211
-    domesticGross: 623357910
-  - title: Furious 7
-    year: 2015
-    worldwideGross: 1512024765
-    domesticGross: 353007020
-  - title: 'Frozen II'
-    year: 2019
-    worldwideGross: 1450026933
-    domesticGross: 477373578
-  - title: 'Top Gun: Maverick'
-    year: 2022
-    worldwideGross: 1444432954
-    domesticGross: 718732821
-  - title: 'Avengers: Age of Ultron'
-    year: 2015
-    worldwideGross: 1402809540
-    domesticGross: 459005868
-  - title: 'The Super Mario Bros. Movie'
-    year: 2023
-    worldwideGross: 1361993475
-    domesticGross: 574934330
-  - title: Black Panther
-    year: 2018
-    worldwideGross: 1334710113
-    domesticGross: 700059566
-  - title: 'Harry Potter and the Deathly Hallows: Part 2'
-    year: 2011
-    worldwideGross: 1329241908
-    domesticGross: 381011219
-  - title: Barbie
-    year: 2023
-    worldwideGross: 1318625442
-    domesticGross: 636225911
-  - title: 'Star Wars Ep. VIII: The Last Jedi'
-    year: 2017
-    worldwideGross: 1316773539
-    domesticGross: 620181382
-  - title: 'Jurassic World: Fallen Kingdom'
-    year: 2018
-    worldwideGross: 1308354929
-    domesticGross: 417719760
-  - title: Frozen
-    year: 2013
-    worldwideGross: 1284540518
-    domesticGross: 400738009
-  - title: 'Beauty and the Beast'
-    year: 2017
-    worldwideGross: 1263158498
-    domesticGross: 504014165
-  - title: Incredibles 2
-    year: 2018
-    worldwideGross: 1242805359
-    domesticGross: 608581744
-  - title: 'The Fate of the Furious'
-    year: 2017
-    worldwideGross: 1236005118
-    domesticGross: 226008385
-  - title: Minions
-    year: 2015
-    worldwideGross: 1159445497
-    domesticGross: 336045770
-  - title: 'Iron Man 3'
-    year: 2013
-    worldwideGross: 1215577224
-    domesticGross: 409013994
-  - title: 'Captain America: Civil War'
-    year: 2016
-    worldwideGross: 1153337496
-    domesticGross: 408084349
-  - title: Aquaman
-    year: 2018
-    worldwideGross: 1148528393
-    domesticGross: 335061807
-  - title: 'Spider-Man: Far From Home'
-    year: 2019
-    worldwideGross: 1131927996
-    domesticGross: 390532085
-  - title: 'Captain Marvel'
-    year: 2019
-    worldwideGross: 1128462972
-    domesticGross: 426829839
-  - title: 'Transformers: Dark of the Moon'
-    year: 2011
-    worldwideGross: 1123794079
-    domesticGross: 352390543
-  - title: 'Skyfall'
-    year: 2012
-    worldwideGross: 1108569499
-    domesticGross: 304360277
+    worldwideGross: 1843373318
+    domesticGross: 600683057
+  - title: Face/Off
+    year: 1997
+    worldwideGross: 112277322
+    domesticGross: 112276146
+  - title: Batman & Robin
+    year: 1997
+    worldwideGross: 238225195
+    domesticGross: 107325195
+  - title: George of the Jungle
+    year: 1997
+    worldwideGross: 105263257
+    domesticGross: 105263257
+  - title: Titanic
+    year: 1998
+    worldwideGross: 1843373318
+    domesticGross: 600683057
+  - title: Armageddon
+    year: 1998
+    worldwideGross: 553709788
+    domesticGross: 201578182
+  - title: Saving Private Ryan
+    year: 1998
+    worldwideGross: 481840909
+    domesticGross: 216540909
+  - title: There's Something About Mary
+    year: 1998
+    worldwideGross: 369884651
+    domesticGross: 176484651
+  - title: The Waterboy
+    year: 1998
+    worldwideGross: 185991646
+    domesticGross: 161491646
+  - title: Doctor Dolittle
+    year: 1998
+    worldwideGross: 294456605
+    domesticGross: 144156605
+  - title: Deep Impact
+    year: 1998
+    worldwideGross: 140694752
+    domesticGross: 140464664
+  - title: Godzilla
+    year: 1998
+    worldwideGross: 379014294
+    domesticGross: 136314294
+  - title: Rush Hour
+    year: 1998
+    worldwideGross: 244386864
+    domesticGross: 141186864
+  - title: Good Will Hunting
+    year: 1998
+    worldwideGross: 138435239
+    domesticGross: 138433435
+  - title: 'Star Wars: Episode I - The Phantom Menace'
+    year: 1999
+    worldwideGross: 924305084
+    domesticGross: 431088295
+  - title: The Sixth Sense
+    year: 1999
+    worldwideGross: 672806292
+    domesticGross: 293506292
+  - title: 'Austin Powers: The Spy Who Shagged Me'
+    year: 1999
+    worldwideGross: 206756403
+    domesticGross: 206040086
+  - title: Toy Story 2
+    year: 1999
+    worldwideGross: 487059677
+    domesticGross: 245852179
+  - title: The Matrix
+    year: 1999
+    worldwideGross: 463517383
+    domesticGross: 171479930
+  - title: Tarzan
+    year: 1999
+    worldwideGross: 448191819
+    domesticGross: 171091819
+  - title: Big Daddy
+    year: 1999
+    worldwideGross: 234801895
+    domesticGross: 163479795
+  - title: The Mummy
+    year: 1999
+    worldwideGross: 155700124
+    domesticGross: 155516138
+  - title: Runaway Bride
+    year: 1999
+    worldwideGross: 309460292
+    domesticGross: 152257509
+  - title: The Blair Witch Project
+    year: 1999
+    worldwideGross: 248639099
+    domesticGross: 140539099
+  - title: How the Grinch Stole Christmas
+    year: 2000
+    worldwideGross: 346328278
+    domesticGross: 261231700
+  - title: 'Mission: Impossible II'
+    year: 2000
+    worldwideGross: 546388108
+    domesticGross: 215409889
+  - title: Gladiator
+    year: 2000
+    worldwideGross: 460583960
+    domesticGross: 187705427
+  - title: The Perfect Storm
+    year: 2000
+    worldwideGross: 328718434
+    domesticGross: 182618434
+  - title: Meet the Parents
+    year: 2000
+    worldwideGross: 330444045
+    domesticGross: 166244045
+  - title: X-Men
+    year: 2000
+    worldwideGross: 296339528
+    domesticGross: 157299718
+  - title: Scary Movie
+    year: 2000
+    worldwideGross: 278019771
+    domesticGross: 157019771
+  - title: What Lies Beneath
+    year: 2000
+    worldwideGross: 291420351
+    domesticGross: 155464351
+  - title: Dinosaur
+    year: 2000
+    worldwideGross: 349822765
+    domesticGross: 137748063
+  - title: Erin Brockovich
+    year: 2000
+    worldwideGross: 256271286
+    domesticGross: 125595205
+  - title: Harry Potter and the Sorcerer's Stone
+    year: 2001
+    worldwideGross: 974755371
+    domesticGross: 317575550
+  - title: Shrek
+    year: 2001
+    worldwideGross: 484944448
+    domesticGross: 268200241
+  - title: Monsters, Inc.
+    year: 2001
+    worldwideGross: 528773250
+    domesticGross: 255873250
+  - title: Rush Hour 2
+    year: 2001
+    worldwideGross: 347325802
+    domesticGross: 226164286
+  - title: The Mummy Returns
+    year: 2001
+    worldwideGross: 433013274
+    domesticGross: 202019785
+  - title: Pearl Harbor
+    year: 2001
+    worldwideGross: 449220945
+    domesticGross: 198542554
+  - title: Jurassic Park III
+    year: 2001
+    worldwideGross: 368780809
+    domesticGross: 181171875
+  - title: Planet of the Apes
+    year: 2001
+    worldwideGross: 362211740
+    domesticGross: 180011740
+  - title: Hannibal
+    year: 2001
+    worldwideGross: 351692268
+    domesticGross: 165092268
+  - title: 'The Lord of the Rings: The Fellowship of the Ring'
+    year: 2001
+    worldwideGross: 868385360
+    domesticGross: 313364114
+  - title: Spider-Man
+    year: 2002
+    worldwideGross: 821708551
+    domesticGross: 403706375
+  - title: 'Star Wars: Episode II - Attack of the Clones'
+    year: 2002
+    worldwideGross: 645256452
+    domesticGross: 302191252
+  - title: Harry Potter and the Chamber of Secrets
+    year: 2002
+    worldwideGross: 878979634
+    domesticGross: 261988482
+  - title: Signs
+    year: 2002
+    worldwideGross: 408247917
+    domesticGross: 227966634
+  - title: My Big Fat Greek Wedding
+    year: 2002
+    worldwideGross: 368744044
+    domesticGross: 241438208
+  - title: 'The Lord of the Rings: The Two Towers'
+    year: 2002
+    worldwideGross: 923015234
+    domesticGross: 339789881
+  - title: Austin Powers in Goldmember
+    year: 2002
+    worldwideGross: 296939148
+    domesticGross: 213307889
+  - title: Men in Black II
+    year: 2002
+    worldwideGross: 441818803
+    domesticGross: 190418803
+  - title: Ice Age
+    year: 2002
+    worldwideGross: 383257136
+    domesticGross: 176387405
+  - title: A Beautiful Mind
+    year: 2002
+    worldwideGross: 313542341
+    domesticGross: 170742341
+  - title: Finding Nemo
+    year: 2003
+    worldwideGross: 871014978
+    domesticGross: 339714978
+  - title: 'Pirates of the Caribbean: The Curse of the Black Pearl'
+    year: 2003
+    worldwideGross: 654264015
+    domesticGross: 305413918
+  - title: The Matrix Reloaded
+    year: 2003
+    worldwideGross: 739412035
+    domesticGross: 281576461
   - title: 'The Lord of the Rings: The Return of the King'
     year: 2003
-    worldwideGross: 1146436214
-    domesticGross: 377845905
-  - title: 'Transformers: Age of Extinction'
-    year: 2014
-    worldwideGross: 1104054072
-    domesticGross: 245439076
-  - title: 'The Dark Knight Rises'
-    year: 2012
-    worldwideGross: 1081169825
-    domesticGross: 448139099
-  - title: 'Joker'
-    year: 2019
-    worldwideGross: 1074458282
-    domesticGross: 335451311
-  - title: 'Star Wars Ep. IX: The Rise of Skywalker'
-    year: 2019
-    worldwideGross: 1074144248
-    domesticGross: 515202542
-  - title: 'Toy Story 4'
-    year: 2019
-    worldwideGross: 1073394593
-    domesticGross: 434038008
-  - title: 'Toy Story 3'
-    year: 2010
-    worldwideGross: 1067316101
-    domesticGross: 415004880
+    worldwideGross: 1118887224
+    domesticGross: 377027325
+  - title: Bruce Almighty
+    year: 2003
+    worldwideGross: 484592874
+    domesticGross: 242829261
+  - title: 'X2: X-Men United'
+    year: 2003
+    worldwideGross: 407711549
+    domesticGross: 214949694
+  - title: Elf
+    year: 2003
+    worldwideGross: 220443451
+    domesticGross: 173398518
+  - title: Chicago
+    year: 2003
+    worldwideGross: 306776732
+    domesticGross: 170687518
+  - title: 'Terminator 3: Rise of the Machines'
+    year: 2003
+    worldwideGross: 433371112
+    domesticGross: 150371112
+  - title: Bad Boys II
+    year: 2003
+    worldwideGross: 273339556
+    domesticGross: 138608444
+  - title: Shrek 2
+    year: 2004
+    worldwideGross: 929099056
+    domesticGross: 441550292
+  - title: Spider-Man 2
+    year: 2004
+    worldwideGross: 783766341
+    domesticGross: 373585825
+  - title: The Passion of the Christ
+    year: 2004
+    worldwideGross: 609493825
+    domesticGross: 370274604
+  - title: Harry Potter and the Prisoner of Azkaban
+    year: 2004
+    worldwideGross: 795634069
+    domesticGross: 249541069
+  - title: The Incredibles
+    year: 2004
+    worldwideGross: 631442092
+    domesticGross: 261441092
+  - title: The Day After Tomorrow
+    year: 2004
+    worldwideGross: 552639571
+    domesticGross: 186740799
+  - title: The Bourne Supremacy
+    year: 2004
+    worldwideGross: 290633422
+    domesticGross: 176241941
+  - title: Shark Tale
+    year: 2004
+    worldwideGross: 374583879
+    domesticGross: 160861908
+  - title: The Polar Express
+    year: 2004
+    worldwideGross: 286000505
+    domesticGross: 162775358
+  - title: National Treasure
+    year: 2004
+    worldwideGross: 347512318
+    domesticGross: 173008894
+  - title: 'Star Wars: Episode III - Revenge of the Sith'
+    year: 2005
+    worldwideGross: 849997605
+    domesticGross: 380270577
+  - title: Harry Potter and the Goblet of Fire
+    year: 2005
+    worldwideGross: 895921036
+    domesticGross: 290013036
+  - title: War of the Worlds
+    year: 2005
+    worldwideGross: 603873119
+    domesticGross: 234280354
+  - title: 'The Chronicles of Narnia: The Lion, the Witch and the Wardrobe'
+    year: 2005
+    worldwideGross: 745013115
+    domesticGross: 291710957
+  - title: Wedding Crashers
+    year: 2005
+    worldwideGross: 288467645
+    domesticGross: 209255921
+  - title: Charlie and the Chocolate Factory
+    year: 2005
+    worldwideGross: 474968763
+    domesticGross: 206459076
+  - title: Batman Begins
+    year: 2005
+    worldwideGross: 373443774
+    domesticGross: 205343774
+  - title: Madagascar
+    year: 2005
+    worldwideGross: 542063846
+    domesticGross: 193595521
+  - title: Mr. & Mrs. Smith
+    year: 2005
+    worldwideGross: 487287646
+    domesticGross: 186336279
+  - title: Hitch
+    year: 2005
+    worldwideGross: 371594210
+    domesticGross: 179495555
   - title: 'Pirates of the Caribbean: Dead Man''s Chest'
     year: 2006
-    worldwideGross: 1066179747
+    worldwideGross: 1066179725
     domesticGross: 423315812
-  - title: 'Rogue One: A Star Wars Story'
-    year: 2016
-    worldwideGross: 1056057720
-    domesticGross: 532177324
-  - title: Aladdin
-    year: 2019
-    worldwideGross: 1050693953
-    domesticGross: 355559216
-  - title: 'Pirates of the Caribbean: On Stranger Tides'
-    year: 2011
-    worldwideGross: 1045713802
-    domesticGross: 241071802
-  - title: 'Despicable Me 3'
-    year: 2017
-    worldwideGross: 1034800131
-    domesticGross: 264624300
-  - title: 'Finding Dory'
-    year: 2016
-    worldwideGross: 1028570942
-    domesticGross: 486295561
-  - title: 'Star Wars Ep. I: The Phantom Menace'
-    year: 1999
-    worldwideGross: 1027082707
-    domesticGross: 474544677
-  - title: 'Alice in Wonderland'
-    year: 2010
-    worldwideGross: 1025468216
-    domesticGross: 334191110
-  - title: 'Zootopia'
-    year: 2016
-    worldwideGross: 1024121104
-    domesticGross: 341268248
-  - title: 'The Hobbit: An Unexpected Journey'
-    year: 2012
-    worldwideGross: 1017003568
-    domesticGross: 303003568
-  - title: 'The Dark Knight'
-    year: 2008
-    worldwideGross: 1006234167
-    domesticGross: 534858444
-  - title: 'Harry Potter and the Sorcerer''s Stone'
-    year: 2001
-    worldwideGross: 1002047369
-    domesticGross: 317575550
-  - title: 'Despicable Me 2'
-    year: 2013
-    worldwideGross: 970766005
-    domesticGross: 368065385
-  - title: 'The Lion King'
-    year: 1994
-    worldwideGross: 968511805
-    domesticGross: 422783777
-  - title: 'The Jungle Book'
-    year: 2016
-    worldwideGross: 966554909
-    domesticGross: 364001123
+  - title: Cars
+    year: 2006
+    worldwideGross: 461983149
+    domesticGross: 244082982
+  - title: 'X-Men: The Last Stand'
+    year: 2006
+    worldwideGross: 460435291
+    domesticGross: 234362462
+  - title: The Da Vinci Code
+    year: 2006
+    worldwideGross: 760006945
+    domesticGross: 217536138
+  - title: Superman Returns
+    year: 2006
+    worldwideGross: 391081192
+    domesticGross: 200081192
+  - title: 'Ice Age 2: The Meltdown'
+    year: 2006
+    worldwideGross: 660998756
+    domesticGross: 195330621
+  - title: Happy Feet
+    year: 2006
+    worldwideGross: 384335608
+    domesticGross: 198000317
+  - title: Over the Hedge
+    year: 2006
+    worldwideGross: 339795890
+    domesticGross: 155019340
+  - title: Casino Royale
+    year: 2006
+    worldwideGross: 606000064
+    domesticGross: 167445960
+  - title: 'Talladega Nights: The Ballad of Ricky Bobby'
+    year: 2006
+    worldwideGross: 163369094
+    domesticGross: 148213377
+  - title: Spider-Man 3
+    year: 2007
+    worldwideGross: 890871626
+    domesticGross: 336530303
+  - title: Shrek the Third
+    year: 2007
+    worldwideGross: 808308862
+    domesticGross: 322719944
+  - title: Transformers
+    year: 2007
+    worldwideGross: 709709780
+    domesticGross: 319246193
   - title: 'Pirates of the Caribbean: At World''s End'
     year: 2007
     worldwideGross: 960996492
     domesticGross: 309420425
-  - title: 'The Hobbit: The Desolation of Smaug'
-    year: 2013
-    worldwideGross: 959027968
-    domesticGross: 258366855
-  - title: 'The Hobbit: The Battle of the Five Armies'
-    year: 2014
-    worldwideGross: 956019788
-    domesticGross: 255119788
-  - title: 'Finding Nemo'
-    year: 2003
-    worldwideGross: 940352467
-    domesticGross: 380843261
-  - title: 'Harry Potter and the Deathly Hallows: Part 1'
-    year: 2010
-    worldwideGross: 977070343
-    domesticGross: 295983305
-  - title: 'Minions: The Rise of Gru'
-    year: 2022
-    worldwideGross: 939628210
-    domesticGross: 369695690
-  - title: 'Harry Potter and the Order of the Phoenix'
+  - title: Harry Potter and the Order of the Phoenix
     year: 2007
-    worldwideGross: 942203249
+    worldwideGross: 941942929
     domesticGross: 292004738
-  - title: 'Harry Potter and the Half-Blood Prince'
-    year: 2009
-    worldwideGross: 934546568
-    domesticGross: 301959197
-  - title: 'The Lord of the Rings: The Two Towers'
-    year: 2002
-    worldwideGross: 947937398
-    domesticGross: 342551365
-  - title: 'Shrek 2'
-    year: 2004
-    worldwideGross: 928784382
-    domesticGross: 441226247
-  - title: 'Bohemian Rhapsody'
-    year: 2018
-    worldwideGross: 903655259
-    domesticGross: 216428042
-  - title: 'Harry Potter and the Goblet of Fire'
-    year: 2005
-    worldwideGross: 896700589
-    domesticGross: 290013036
-  - title: 'Spider-Man 3'
+  - title: The Bourne Ultimatum
     year: 2007
-    worldwideGross: 894879698
-    domesticGross: 336530303
+    worldwideGross: 442824138
+    domesticGross: 227471070
+  - title: '300'
+    year: 2007
+    worldwideGross: 456068181
+    domesticGross: 210614939
+  - title: Ratatouille
+    year: 2007
+    worldwideGross: 623729828
+    domesticGross: 206445654
+  - title: I Am Legend
+    year: 2007
+    worldwideGross: 585410052
+    domesticGross: 256393010
+  - title: The Simpsons Movie
+    year: 2007
+    worldwideGross: 536414270
+    domesticGross: 183135014
+  - title: The Dark Knight
+    year: 2008
+    worldwideGross: 1003845358
+    domesticGross: 533345358
+  - title: Iron Man
+    year: 2008
+    worldwideGross: 585366247
+    domesticGross: 318604126
+  - title: Indiana Jones and the Kingdom of the Crystal Skull
+    year: 2008
+    worldwideGross: 786636033
+    domesticGross: 317101119
+  - title: Hancock
+    year: 2008
+    worldwideGross: 629443428
+    domesticGross: 227946274
+  - title: "WALL\xB7E"
+    year: 2008
+    worldwideGross: 521311860
+    domesticGross: 223808164
+  - title: Kung Fu Panda
+    year: 2008
+    worldwideGross: 632037515
+    domesticGross: 215727546
+  - title: 'Madagascar: Escape 2 Africa'
+    year: 2008
+    worldwideGross: 603900354
+    domesticGross: 180010950
+  - title: Twilight
+    year: 2008
+    worldwideGross: 407258755
+    domesticGross: 192769854
+  - title: Quantum of Solace
+    year: 2008
+    worldwideGross: 589580694
+    domesticGross: 168368427
+  - title: Horton Hears a Who!
+    year: 2008
+    worldwideGross: 298572799
+    domesticGross: 154529439
+  - title: 'Transformers: Revenge of the Fallen'
+    year: 2009
+    worldwideGross: 836303693
+    domesticGross: 402111870
+  - title: Harry Potter and the Half-Blood Prince
+    year: 2009
+    worldwideGross: 933959197
+    domesticGross: 301959197
+  - title: Up
+    year: 2009
+    worldwideGross: 735099082
+    domesticGross: 293004164
+  - title: 'The Twilight Saga: New Moon'
+    year: 2009
+    worldwideGross: 709827462
+    domesticGross: 296623634
+  - title: Avatar
+    year: 2009
+    worldwideGross: 2743577587
+    domesticGross: 749766139
+  - title: The Hangover
+    year: 2009
+    worldwideGross: 468812793
+    domesticGross: 277322503
+  - title: Star Trek
+    year: 2009
+    worldwideGross: 385680446
+    domesticGross: 257730019
+  - title: Monsters vs. Aliens
+    year: 2009
+    worldwideGross: 381509870
+    domesticGross: 198351526
   - title: 'Ice Age: Dawn of the Dinosaurs'
     year: 2009
     worldwideGross: 886686817
     domesticGross: 196573705
-  - title: 'Spectre'
-    year: 2015
-    worldwideGross: 880674609
-    domesticGross: 200074609
-  - title: 'Spider-Man: Homecoming'
-    year: 2017
-    worldwideGross: 880166924
-    domesticGross: 334201140
-  - title: 'Guardians of the Galaxy Vol. 2'
-    year: 2017
-    worldwideGross: 863756051
-    domesticGross: 389813101
-  - title: 'Venom'
-    year: 2018
-    worldwideGross: 856085151
-    domesticGross: 213515506
-  - title: 'Thor: Ragnarok'
-    year: 2017
-    worldwideGross: 853983946
-    domesticGross: 315058289
-  - title: 'Wonder Woman'
-    year: 2017
-    worldwideGross: 822854286
-    domesticGross: 412563408
-  - title: 'Deadpool 2'
-    year: 2018
-    worldwideGross: 785896623
-    domesticGross: 324591735
-  - title: 'Deadpool'
-    year: 2016
-    worldwideGross: 782839215
-    domesticGross: 363070709
-  - title: 'Guardians of the Galaxy'
-    year: 2014
-    worldwideGross: 773350147
-    domesticGross: 333176600
+  - title: The Blind Side
+    year: 2009
+    worldwideGross: 309208309
+    domesticGross: 255959475
+  - title: Avatar
+    year: 2010
+    worldwideGross: 2743577587
+    domesticGross: 749766139
+  - title: Toy Story 3
+    year: 2010
+    worldwideGross: 1066969703
+    domesticGross: 415004880
+  - title: Alice in Wonderland
+    year: 2010
+    worldwideGross: 1025467110
+    domesticGross: 334191110
+  - title: Iron Man 2
+    year: 2010
+    worldwideGross: 623933331
+    domesticGross: 312433331
+  - title: 'The Twilight Saga: Eclipse'
+    year: 2010
+    worldwideGross: 698491347
+    domesticGross: 300531751
+  - title: Inception
+    year: 2010
+    worldwideGross: 828258695
+    domesticGross: 292576195
+  - title: 'Harry Potter and the Deathly Hallows: Part 1'
+    year: 2010
+    worldwideGross: 960283305
+    domesticGross: 295983305
+  - title: Despicable Me
+    year: 2010
+    worldwideGross: 543239815
+    domesticGross: 251639815
+  - title: Shrek Forever After
+    year: 2010
+    worldwideGross: 752600867
+    domesticGross: 238736787
+  - title: How to Train Your Dragon
+    year: 2010
+    worldwideGross: 494878759
+    domesticGross: 217581231
+  - title: 'Harry Potter and the Deathly Hallows: Part 2'
+    year: 2011
+    worldwideGross: 1341511219
+    domesticGross: 381011219
+  - title: 'Transformers: Dark of the Moon'
+    year: 2011
+    worldwideGross: 1123794079
+    domesticGross: 352390543
+  - title: 'The Twilight Saga: Breaking Dawn - Part 1'
+    year: 2011
+    worldwideGross: 712205856
+    domesticGross: 281287133
+  - title: The Hangover Part II
+    year: 2011
+    worldwideGross: 586764305
+    domesticGross: 254464305
+  - title: 'Pirates of the Caribbean: On Stranger Tides'
+    year: 2011
+    worldwideGross: 1045713802
+    domesticGross: 241071802
+  - title: Fast Five
+    year: 2011
+    worldwideGross: 626137675
+    domesticGross: 209837675
+  - title: Cars 2
+    year: 2011
+    worldwideGross: 559852396
+    domesticGross: 191452396
+  - title: Thor
+    year: 2011
+    worldwideGross: 449326618
+    domesticGross: 181030624
+  - title: Rise of the Planet of the Apes
+    year: 2011
+    worldwideGross: 481800873
+    domesticGross: 176760185
+  - title: 'Captain America: The First Avenger'
+    year: 2011
+    worldwideGross: 370569774
+    domesticGross: 176654505
+  - title: The Avengers
+    year: 2012
+    worldwideGross: 1518812988
+    domesticGross: 623357910
+  - title: The Dark Knight Rises
+    year: 2012
+    worldwideGross: 1084939099
+    domesticGross: 448139099
+  - title: The Hunger Games
+    year: 2012
+    worldwideGross: 694394724
+    domesticGross: 408010692
+  - title: Skyfall
+    year: 2012
+    worldwideGross: 1108561013
+    domesticGross: 304360277
+  - title: 'The Twilight Saga: Breaking Dawn - Part 2'
+    year: 2012
+    worldwideGross: 829746820
+    domesticGross: 292324737
+  - title: The Amazing Spider-Man
+    year: 2012
+    worldwideGross: 757930663
+    domesticGross: 262030663
+  - title: Brave
+    year: 2012
+    worldwideGross: 538983207
+    domesticGross: 237283207
+  - title: 'The Hobbit: An Unexpected Journey'
+    year: 2012
+    worldwideGross: 1017003568
+    domesticGross: 303003568
+  - title: Ted
+    year: 2012
+    worldwideGross: 549368315
+    domesticGross: 218815487
+  - title: 'Madagascar 3: Europe''s Most Wanted'
+    year: 2012
+    worldwideGross: 746921274
+    domesticGross: 216391482
+  - title: Iron Man 3
+    year: 2013
+    worldwideGross: 1214811252
+    domesticGross: 409013994
   - title: 'The Hunger Games: Catching Fire'
     year: 2013
     worldwideGross: 865011746
     domesticGross: 424668047
-  - title: 'The Matrix Reloaded'
-    year: 2003
-    worldwideGross: 741847117
-    domesticGross: 281576461
-  - title: 'Forrest Gump'
-    year: 1994
-    worldwideGross: 678229452
-    domesticGross: 330252182
-  - title: 'The Sixth Sense'
-    year: 1999
-    worldwideGross: 672806292
-    domesticGross: 293506292
-  - title: 'Up'
-    year: 2009
-    worldwideGross: 735099124
-    domesticGross: 293004164
-  - title: 'Inside Out'
+  - title: Despicable Me 2
+    year: 2013
+    worldwideGross: 970766005
+    domesticGross: 368065385
+  - title: Man of Steel
+    year: 2013
+    worldwideGross: 670145518
+    domesticGross: 291045518
+  - title: Monsters University
+    year: 2013
+    worldwideGross: 743559607
+    domesticGross: 268492764
+  - title: Frozen
+    year: 2013
+    worldwideGross: 1280802282
+    domesticGross: 400738009
+  - title: Gravity
+    year: 2013
+    worldwideGross: 723192705
+    domesticGross: 274092705
+  - title: Fast & Furious 6
+    year: 2013
+    worldwideGross: 788679850
+    domesticGross: 238679850
+  - title: Oz the Great and Powerful
+    year: 2013
+    worldwideGross: 493311825
+    domesticGross: 234911825
+  - title: Star Trek Into Darkness
+    year: 2013
+    worldwideGross: 467365246
+    domesticGross: 228778661
+  - title: Guardians of the Galaxy
+    year: 2014
+    worldwideGross: 772776600
+    domesticGross: 333176600
+  - title: 'The Hunger Games: Mockingjay - Part 1'
+    year: 2014
+    worldwideGross: 755356711
+    domesticGross: 337135885
+  - title: 'Captain America: The Winter Soldier'
+    year: 2014
+    worldwideGross: 714421503
+    domesticGross: 259766572
+  - title: The Lego Movie
+    year: 2014
+    worldwideGross: 468060692
+    domesticGross: 257760692
+  - title: 'Transformers: Age of Extinction'
+    year: 2014
+    worldwideGross: 1104054072
+    domesticGross: 245439076
+  - title: Maleficent
+    year: 2014
+    worldwideGross: 758410378
+    domesticGross: 241410378
+  - title: 'X-Men: Days of Future Past'
+    year: 2014
+    worldwideGross: 746045700
+    domesticGross: 233921534
+  - title: Dawn of the Planet of the Apes
+    year: 2014
+    worldwideGross: 710644566
+    domesticGross: 208545589
+  - title: Big Hero 6
+    year: 2014
+    worldwideGross: 657827828
+    domesticGross: 222527828
+  - title: The Amazing Spider-Man 2
+    year: 2014
+    worldwideGross: 708982323
+    domesticGross: 202853933
+  - title: Jurassic World
     year: 2015
-    worldwideGross: 858848019
+    worldwideGross: 1670400637
+    domesticGross: 652270625
+  - title: 'Star Wars: Episode VII - The Force Awakens'
+    year: 2015
+    worldwideGross: 2068223624
+    domesticGross: 936662225
+  - title: 'Avengers: Age of Ultron'
+    year: 2015
+    worldwideGross: 1402805868
+    domesticGross: 459005868
+  - title: Inside Out
+    year: 2015
+    worldwideGross: 858294430
     domesticGross: 356461711
-  - title: 'Coco'
-    year: 2017
-    worldwideGross: 807817888
-    domesticGross: 209726015
-  - title: 'Moana'
+  - title: Furious 7
+    year: 2015
+    worldwideGross: 1515047671
+    domesticGross: 353007020
+  - title: American Sniper
+    year: 2015
+    worldwideGross: 547626372
+    domesticGross: 350126372
+  - title: Minions
+    year: 2015
+    worldwideGross: 1159398397
+    domesticGross: 336045770
+  - title: 'The Hunger Games: Mockingjay - Part 2'
+    year: 2015
+    worldwideGross: 653428261
+    domesticGross: 281723902
+  - title: The Martian
+    year: 2015
+    worldwideGross: 630161890
+    domesticGross: 228433663
+  - title: Cinderella
+    year: 2015
+    worldwideGross: 542351353
+    domesticGross: 201151353
+  - title: Finding Dory
     year: 2016
-    worldwideGross: 645258836
-    domesticGross: 248757044
-  - title: 'Shrek the Third'
-    year: 2007
-    worldwideGross: 813367380
-    domesticGross: 322719944
-  - title: 'Jaws'
-    year: 1975
-    worldwideGross: 476512396
-    domesticGross: 260000000
-  - title: 'The Exorcist'
-    year: 1973
-    worldwideGross: 441306145
-    domesticGross: 232906145
-  - title: 'E.T. the Extra-Terrestrial'
-    year: 1982
-    worldwideGross: 792966395
-    domesticGross: 435110554
-  - title: 'The Godfather'
-    year: 1972
-    worldwideGross: 250341901
-    domesticGross: 134966411
-  - title: 'Raiders of the Lost Ark'
-    year: 1981
-    worldwideGross: 389925971
-    domesticGross: 248159971
-  - title: 'Back to the Future'
-    year: 1985
-    worldwideGross: 388774780
-    domesticGross: 210609762
-  - title: 'The Terminator'
-    year: 1984
-    worldwideGross: 78371200
-    domesticGross: 38371200
-  - title: 'Die Hard'
-    year: 1988
-    worldwideGross: 141603093
-    domesticGross: 83008852
-  - title: 'Blade Runner'
-    year: 1982
-    worldwideGross: 41575083
-    domesticGross: 32868943
-  - title: 'Pulp Fiction'
-    year: 1994
-    worldwideGross: 213928762
-    domesticGross: 107928762
-  - title: 'The Shawshank Redemption'
-    year: 1994
-    worldwideGross: 28884504
-    domesticGross: 28341469
-  - title: 'GoodFellas'
-    year: 1990
-    worldwideGross: 47098495
-    domesticGross: 46836394
-  - title: 'The Silence of the Lambs'
-    year: 1991
-    worldwideGross: 272742922
-    domesticGross: 130742922
-  - title: 'Saving Private Ryan'
-    year: 1998
-    worldwideGross: 482349603
-    domesticGross: 216540909
-  - title: 'Gladiator'
-    year: 2000
-    worldwideGross: 465361176
-    domesticGross: 187705427
-  - title: 'Braveheart'
-    year: 1995
-    worldwideGross: 213216216
-    domesticGross: 75609945
-  - title: 'Schindler''s List'
-    year: 1993
-    worldwideGross: 322160910
-    domesticGross: 96898818
-  - title: 'Fight Club'
-    year: 1999
-    worldwideGross: 101209702
-    domesticGross: 37030102
-  - title: 'Se7en'
-    year: 1995
-    worldwideGross: 327333559
-    domesticGross: 100125643
-  - title: 'The Usual Suspects'
-    year: 1995
-    worldwideGross: 23341568
-    domesticGross: 23341568
-  - title: 'No Country for Old Men'
-    year: 2007
-    worldwideGross: 171627166
-    domesticGross: 74283625
-  - title: 'There Will Be Blood'
-    year: 2007
-    worldwideGross: 76182475
-    domesticGross: 40222514
-  - title: 'The Big Lebowski'
-    year: 1998
-    worldwideGross: 46961239
-    domesticGross: 17498707
-  - title: 'Fargo'
-    year: 1996
-    worldwideGross: 60611975
-    domesticGross: 24611975
-  - title: 'Alien'
-    year: 1979
-    worldwideGross: 106277083
-    domesticGross: 78944891
-  - title: 'Aliens'
-    year: 1986
-    worldwideGross: 131060248
-    domesticGross: 85160248
-  - title: 'The Shining'
-    year: 1980
-    worldwideGross: 47250284
-    domesticGross: 44017373
-  - title: 'A Clockwork Orange'
-    year: 1971
-    worldwideGross: 26903429
-    domesticGross: 26589355
-  - title: '2001: A Space Odyssey'
-    year: 1968
-    worldwideGross: 69548489
-    domesticGross: 56954992
-  - title: 'Apocalypse Now'
-    year: 1979
-    worldwideGross: 91969477
-    domesticGross: 83471511
-  - title: 'Taxi Driver'
-    year: 1976
-    worldwideGross: 28442204
-    domesticGross: 28262574
-  - title: 'Chinatown'
-    year: 1974
-    worldwideGross: 29215000
-    domesticGross: 29200000
-  - title: 'Lawrence of Arabia'
-    year: 1962
-    worldwideGross: 45710640
-    domesticGross: 44824144
-  - title: 'The Bridge on the River Kwai'
-    year: 1957
-    worldwideGross: 33300000
-    domesticGross: 27200000
+    worldwideGross: 1028570889
+    domesticGross: 486295561
+  - title: 'Rogue One: A Star Wars Story'
+    year: 2016
+    worldwideGross: 1056057273
+    domesticGross: 532177324
+  - title: 'Captain America: Civil War'
+    year: 2016
+    worldwideGross: 1153296293
+    domesticGross: 408084349
+  - title: The Secret Life of Pets
+    year: 2016
+    worldwideGross: 875697467
+    domesticGross: 368623860
+  - title: The Jungle Book
+    year: 2016
+    worldwideGross: 966550600
+    domesticGross: 364001123
+  - title: Deadpool
+    year: 2016
+    worldwideGross: 782612155
+    domesticGross: 363070709
+  - title: Zootopia
+    year: 2016
+    worldwideGross: 1023784195
+    domesticGross: 341268248
+  - title: 'Batman v Superman: Dawn of Justice'
+    year: 2016
+    worldwideGross: 874360194
+    domesticGross: 330360194
+  - title: Suicide Squad
+    year: 2016
+    worldwideGross: 749200054
+    domesticGross: 325100054
+  - title: 'Star Wars: Episode VII - The Force Awakens'
+    year: 2016
+    worldwideGross: 2068223624
+    domesticGross: 936662225
+  - title: 'Star Wars: Episode VIII - The Last Jedi'
+    year: 2017
+    worldwideGross: 1332539889
+    domesticGross: 620181382
+  - title: Beauty and the Beast
+    year: 2017
+    worldwideGross: 1263521126
+    domesticGross: 504014165
+  - title: Wonder Woman
+    year: 2017
+    worldwideGross: 822963408
+    domesticGross: 412563408
+  - title: Guardians of the Galaxy Vol. 2
+    year: 2017
+    worldwideGross: 863756051
+    domesticGross: 389813101
+  - title: 'Spider-Man: Homecoming'
+    year: 2017
+    worldwideGross: 880166924
+    domesticGross: 334201140
+  - title: It
+    year: 2017
+    worldwideGross: 702781748
+    domesticGross: 327481748
+  - title: 'Thor: Ragnarok'
+    year: 2017
+    worldwideGross: 853977126
+    domesticGross: 315058289
+  - title: Despicable Me 3
+    year: 2017
+    worldwideGross: 1034799409
+    domesticGross: 264624300
+  - title: Logan
+    year: 2017
+    worldwideGross: 619021436
+    domesticGross: 226277068
+  - title: The Fate of the Furious
+    year: 2017
+    worldwideGross: 1236005118
+    domesticGross: 226008385
+  - title: Black Panther
+    year: 2018
+    worldwideGross: 1346913161
+    domesticGross: 700059566
+  - title: 'Avengers: Infinity War'
+    year: 2018
+    worldwideGross: 2048359754
+    domesticGross: 678815482
+  - title: Incredibles 2
+    year: 2018
+    worldwideGross: 1242805359
+    domesticGross: 608581744
+  - title: 'Jurassic World: Fallen Kingdom'
+    year: 2018
+    worldwideGross: 1308467944
+    domesticGross: 417719760
+  - title: Deadpool 2
+    year: 2018
+    worldwideGross: 734546611
+    domesticGross: 318491426
+  - title: The Grinch
+    year: 2018
+    worldwideGross: 512715682
+    domesticGross: 271740675
+  - title: 'Jumanji: Welcome to the Jungle'
+    year: 2018
+    worldwideGross: 962077546
+    domesticGross: 404515480
+  - title: 'Mission: Impossible - Fallout'
+    year: 2018
+    worldwideGross: 791115104
+    domesticGross: 220159104
+  - title: Ant-Man and the Wasp
+    year: 2018
+    worldwideGross: 622674139
+    domesticGross: 216648740
+  - title: 'Solo: A Star Wars Story'
+    year: 2018
+    worldwideGross: 392924807
+    domesticGross: 213767512
+  - title: 'Avengers: Endgame'
+    year: 2019
+    worldwideGross: 2799439100
+    domesticGross: 858373000
+  - title: The Lion King
+    year: 2019
+    worldwideGross: 1656943394
+    domesticGross: 543638043
+  - title: Toy Story 4
+    year: 2019
+    worldwideGross: 1073394593
+    domesticGross: 434038008
+  - title: Frozen II
+    year: 2019
+    worldwideGross: 1450026933
+    domesticGross: 477373578
+  - title: Captain Marvel
+    year: 2019
+    worldwideGross: 1128274794
+    domesticGross: 426829839
+  - title: 'Star Wars: Episode IX - The Rise of Skywalker'
+    year: 2019
+    worldwideGross: 1074144248
+    domesticGross: 515202542
+  - title: 'Spider-Man: Far from Home'
+    year: 2019
+    worldwideGross: 1131927996
+    domesticGross: 390532085
+  - title: Aladdin
+    year: 2019
+    worldwideGross: 1050693953
+    domesticGross: 355559216
+  - title: Joker
+    year: 2019
+    worldwideGross: 1078751311
+    domesticGross: 335451311
+  - title: 'It: Chapter Two'
+    year: 2019
+    worldwideGross: 473093228
+    domesticGross: 211593228
+  - title: Bad Boys for Life
+    year: 2020
+    worldwideGross: 426505244
+    domesticGross: 206305244
+  - title: '1917'
+    year: 2020
+    worldwideGross: 384580017
+    domesticGross: 159227644
+  - title: Sonic the Hedgehog
+    year: 2020
+    worldwideGross: 319715683
+    domesticGross: 148974665
+  - title: 'Jumanji: The Next Level'
+    year: 2020
+    worldwideGross: 801693929
+    domesticGross: 320314960
+  - title: 'Star Wars: Episode IX - The Rise of Skywalker'
+    year: 2020
+    worldwideGross: 1074144248
+    domesticGross: 515202542
+  - title: Birds of Prey and the Fantabulous Emancipation of One Harley Quinn
+    year: 2020
+    worldwideGross: 205358461
+    domesticGross: 84158461
+  - title: Dolittle
+    year: 2020
+    worldwideGross: 251410631
+    domesticGross: 77047065
+  - title: Little Women
+    year: 2020
+    worldwideGross: 220102318
+    domesticGross: 108101214
+  - title: The Invisible Man
+    year: 2020
+    worldwideGross: 144492724
+    domesticGross: 70410000
+  - title: The Call of the Wild
+    year: 2020
+    worldwideGross: 111166669
+    domesticGross: 62342368
+  - title: 'Spider-Man: No Way Home'
+    year: 2021
+    worldwideGross: 1910982770
+    domesticGross: 804793477
+  - title: Shang-Chi and the Legend of the Ten Rings
+    year: 2021
+    worldwideGross: 432243292
+    domesticGross: 224543292
+  - title: 'Venom: Let There Be Carnage'
+    year: 2021
+    worldwideGross: 506813864
+    domesticGross: 213550366
+  - title: Black Widow
+    year: 2021
+    worldwideGross: 379751655
+    domesticGross: 183651655
+  - title: 'F9: The Fast Saga'
+    year: 2021
+    worldwideGross: 726229501
+    domesticGross: 173005945
+  - title: Eternals
+    year: 2021
+    worldwideGross: 402064899
+    domesticGross: 164870234
+  - title: No Time to Die
+    year: 2021
+    worldwideGross: 774153007
+    domesticGross: 160891007
+  - title: A Quiet Place Part II
+    year: 2021
+    worldwideGross: 297372261
+    domesticGross: 160072261
+  - title: 'Ghostbusters: Afterlife'
+    year: 2021
+    worldwideGross: 204334455
+    domesticGross: 129360575
+  - title: Free Guy
+    year: 2021
+    worldwideGross: 331526598
+    domesticGross: 121626598
+  - title: 'Top Gun: Maverick'
+    year: 2022
+    worldwideGross: 1495696292
+    domesticGross: 718732821
+  - title: 'Black Panther: Wakanda Forever'
+    year: 2022
+    worldwideGross: 859208836
+    domesticGross: 453829060
+  - title: Doctor Strange in the Multiverse of Madness
+    year: 2022
+    worldwideGross: 955775804
+    domesticGross: 411331607
+  - title: 'Avatar: The Way of Water'
+    year: 2022
+    worldwideGross: 2320250281
+    domesticGross: 684075767
+  - title: 'Jurassic World: Dominion'
+    year: 2022
+    worldwideGross: 1001978080
+    domesticGross: 376851080
+  - title: 'Minions: The Rise of Gru'
+    year: 2022
+    worldwideGross: 940482695
+    domesticGross: 370549695
+  - title: The Batman
+    year: 2022
+    worldwideGross: 772245583
+    domesticGross: 369345583
+  - title: 'Thor: Love and Thunder'
+    year: 2022
+    worldwideGross: 760928081
+    domesticGross: 343256830
+  - title: 'Spider-Man: No Way Home'
+    year: 2022
+    worldwideGross: 1910982770
+    domesticGross: 804793477
+  - title: Sonic the Hedgehog 2
+    year: 2022
+    worldwideGross: 405421518
+    domesticGross: 190872904
+  - title: Barbie
+    year: 2023
+    worldwideGross: 1447038421
+    domesticGross: 636238421
+  - title: The Super Mario Bros. Movie
+    year: 2023
+    worldwideGross: 1360847665
+    domesticGross: 574934330
+  - title: 'Spider-Man: Across the Spider-Verse'
+    year: 2023
+    worldwideGross: 690542303
+    domesticGross: 381311319
+  - title: Guardians of the Galaxy Vol. 3
+    year: 2023
+    worldwideGross: 845555777
+    domesticGross: 358995815
+  - title: Oppenheimer
+    year: 2023
+    worldwideGross: 975811333
+    domesticGross: 330078895
+  - title: The Little Mermaid
+    year: 2023
+    worldwideGross: 569626289
+    domesticGross: 298172056
+  - title: 'Avatar: The Way of Water'
+    year: 2023
+    worldwideGross: 2320250281
+    domesticGross: 684075767
+  - title: 'Ant-Man and the Wasp: Quantumania'
+    year: 2023
+    worldwideGross: 476071180
+    domesticGross: 214504909
+  - title: 'John Wick: Chapter 4'
+    year: 2023
+    worldwideGross: 447142521
+    domesticGross: 187131806
+  - title: Sound of Freedom
+    year: 2023
+    worldwideGross: 250570396
+    domesticGross: 184178046
+  - title: Inside Out 2
+    year: 2024
+    worldwideGross: 1698863816
+    domesticGross: 652980194
+  - title: Deadpool & Wolverine
+    year: 2024
+    worldwideGross: 1338073645
+    domesticGross: 636745858
+  - title: Wicked
+    year: 2024
+    worldwideGross: 756279246
+    domesticGross: 473231120
+  - title: Moana 2
+    year: 2024
+    worldwideGross: 1059242164
+    domesticGross: 460405297
+  - title: Despicable Me 4
+    year: 2024
+    worldwideGross: 972021410
+    domesticGross: 361004205
+  - title: Beetlejuice Beetlejuice
+    year: 2024
+    worldwideGross: 452000435
+    domesticGross: 294100435
+  - title: 'Dune: Part Two'
+    year: 2024
+    worldwideGross: 714844358
+    domesticGross: 282144358
+  - title: Twisters
+    year: 2024
+    worldwideGross: 372262265
+    domesticGross: 267762265
+  - title: 'Godzilla x Kong: The New Empire'
+    year: 2024
+    worldwideGross: 572050016
+    domesticGross: 196350016
+  - title: Kung Fu Panda 4
+    year: 2024
+    worldwideGross: 547946428
+    domesticGross: 193590620
