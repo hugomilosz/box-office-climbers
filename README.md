@@ -4,6 +4,8 @@
 
 A 2D game prototype built in Unity where the player must guess if a movie's box office gross was higher or lower than a previous one.
 
+Available to play [here](https://play.unity.com/en/games/6abea47d-df19-4d85-8979-df73c8fcc661/box-office-climbers).
+
 <img src="https://github.com/user-attachments/assets/6e7e17ae-eb9e-4508-b7d6-8d1badfe89fc" alt="Demo" width="700">
 
 ---
