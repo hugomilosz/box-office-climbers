@@ -29,10 +29,12 @@ public class GameManager : MonoBehaviour
     public float timeDecreasePerPoint = 0.1f;
     public float minimumTime = 2f;
     
+    // Reference to the running timer coroutine,
     private Coroutine timerCoroutine;
 
     void Start()
     {
+        // Find the starting piece from the level generator and position player there
         currentStairUnit = levelGenerator.GetStartingPiece();
         if (currentStairUnit != null)
         {
@@ -45,9 +47,11 @@ public class GameManager : MonoBehaviour
         currentMovie = movieDB.GetRandomMovie();
         nextMovie = movieDB.GetRandomMovie(currentMovie);
 
+        // Start the game by having the player walk to the first intersection
         ChangeState(GameState.Walking);
     }
 
+    // Detects when the player hits the intersection trigger
     void OnTriggerEnter2D(Collider2D other)
     {
         if (currentState == GameState.Walking && other.CompareTag("IntersectionTrigger"))
@@ -82,6 +86,7 @@ public class GameManager : MonoBehaviour
     public void PlayerGuessHigher() => PlayerGuess(true);
     public void PlayerGuessLower() => PlayerGuess(false);
 
+    // Process the player's guess.
     private void PlayerGuess(bool guessedHigher)
     {
         if (currentState != GameState.WaitingForInput) return;
