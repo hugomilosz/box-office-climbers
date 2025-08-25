@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+// Handles player movement
 public class PlayerAnimationController : MonoBehaviour
 {
     public float moveSpeed = 5.0f;
@@ -14,6 +15,7 @@ public class PlayerAnimationController : MonoBehaviour
         ResetToIdle();
     }
 
+    // Move the player horizontally to the right
     public IEnumerator WalkTo(Vector3 targetPosition)
     {
         AnimateWalk();
@@ -29,6 +31,7 @@ public class PlayerAnimationController : MonoBehaviour
         SetIdle();
     }
 
+    // Move the player to a target position (x and y)
     public IEnumerator MovePlayerTo(Vector3 targetPosition)
     {
         AnimateWalk();
@@ -42,6 +45,7 @@ public class PlayerAnimationController : MonoBehaviour
         SetIdle();
     }
 
+    // Flips the player's sprite and sets the animation state to Walk
     public void AnimateWalk()
     {
         transform.localScale = new Vector3(-initialPlayerScale.x, initialPlayerScale.y, initialPlayerScale.z);
@@ -49,6 +53,7 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetTrigger("Walk");
     }
 
+    // Plays the death animation
     public void PlayDeath()
     {
         animator.ResetTrigger("Idle");
@@ -56,6 +61,7 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetTrigger("Die");
     }
 
+    // Sets the animation state to Idle
     public void ResetToIdle()
     {
         transform.localScale = new Vector3(-initialPlayerScale.x, initialPlayerScale.y, initialPlayerScale.z);
